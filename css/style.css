@@ -65,12 +65,16 @@ body{
     color: #434455;
     font-style: normal;
 }
+.info-link{
+    color:#434455;
+}
 .info-link:hover,
 .info-link:focus{
     color: #404BBF;
 }
 
-/* ======= /NAV ======= */
+/* ======= CONTACTS ======= */
+
 /* ======= HERO ======= */
 .hero{
     background-color: #2E2F42;
@@ -108,6 +112,9 @@ body{
 .footer{
     background-color: #2E2F42;
 }
+.footer-span{
+    color:#f4f4fd;
+}
 .footer-text{
     color: #F4F4FD; 
 }
@@ -127,4 +134,7 @@ body{
     background-color: #404BBF;
     color: #FFFFFF;
     cursor: pointer;
+}
+.portfolio-text{
+    color:#434455;
 }
