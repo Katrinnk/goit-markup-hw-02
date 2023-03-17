@@ -1,0 +1,118 @@
+:root{
+    --main-font: 'Roboto', sans-serif;
+}
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+/* ======= COMPONENTS ======= */
+.secondary-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.title-cards {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.text-cards {
+    color: #434455;
+}
+/* ======= /COMPONENTS ======= */
+body{
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ======= LOGO ======= */
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.blue-part-logo {
+     color: #4D5AE5;
+}
+/* ======= /LOGO ======= */
+/* ======= NAV ======= */
+.header-menu-link {
+    font-weight: 500;
+    color: #2E2F42;
+}
+.header-menu-link:hover,
+.header-menu-link:focus{
+    color: #404BBF;
+}
+.info-link {
+    color: #434455;
+    font-style: normal;
+}
+.info-link:hover,
+.info-link:focus{
+    color: #404BBF;
+}
+
+/* ======= /NAV ======= */
+/* ======= HERO ======= */
+.hero{
+    background-color: #2E2F42;
+}
+.primary-title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF; 
+}
+.hero-order-btn{
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF; 
+}
+.hero-order-btn:hover,
+.hero-order-btn:focus{
+    background-color: #404BBF;
+    cursor: pointer;
+}
+/* ======= /HERO ======= */
+
+/* ======= FOOTER ======= */
+.footer{
+    background-color: #2E2F42;
+}
+.footer-text{
+    color: #F4F4FD; 
+}
+/* ======= /FOOTER ======= */
+/* ========PORTFOLIO====== */
+.filter-btn{
+    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
