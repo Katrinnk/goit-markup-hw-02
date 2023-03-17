@@ -13,7 +13,9 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: #2E2F42;
 }
 
@@ -21,19 +23,19 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.text-cards {
-    color: #434455;
-}
 /* ======= /COMPONENTS ======= */
 body{
+    background-color: #FFFFFF;
     font-family: var(--main-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455
 }
 /* ======= LOGO ======= */
 .logo {
@@ -43,12 +45,12 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;
+    color: #4d5ae5;
+}
+.black-part-logo{
+    color:#2e2f42;
 }
 
-.blue-part-logo {
-     color: #4D5AE5;
-}
 /* ======= /LOGO ======= */
 /* ======= NAV ======= */
 .header-menu-link {
@@ -59,7 +61,7 @@ body{
 .header-menu-link:focus{
     color: #404BBF;
 }
-.info-link {
+.header-contact {
     color: #434455;
     font-style: normal;
 }
@@ -74,15 +76,19 @@ body{
     background-color: #2E2F42;
 }
 .primary-title{
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     color: #FFFFFF; 
 }
 .hero-order-btn{
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF; 
 }
@@ -91,8 +97,13 @@ body{
     background-color: #404BBF;
     cursor: pointer;
 }
-/* ======= /HERO ======= */
-
+/* ======= TEAM ======= */
+.team{
+    background-color: #F4F4FD;
+}
+.team-item{
+    background-color: #FFFFFF;
+}
 /* ======= FOOTER ======= */
 .footer{
     background-color: #2E2F42;
@@ -104,6 +115,7 @@ body{
 /* ========PORTFOLIO====== */
 .filter-btn{
     background-color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
