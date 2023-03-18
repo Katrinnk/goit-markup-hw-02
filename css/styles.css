@@ -33,7 +33,7 @@
 /* ======= /COMPONENTS ======= */
 body {
     background-color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--main-font);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -100,7 +100,7 @@ body {
 
 .hero-order-btn {
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -140,7 +140,7 @@ body {
 /* ========PORTFOLIO====== */
 .filter-btn {
     background-color: #F4F4FD;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--main-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
