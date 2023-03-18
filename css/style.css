@@ -1,6 +1,5 @@
 :root{
-    --main-font: 'Roboto', sans-serif;
-    --main-text-color: #2E2F42;
+   
 }
 
 .list{
@@ -18,7 +17,7 @@
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    color:var(--main-text-color);
+    color:#2E2F42;
 }
 
 .title-cards {
@@ -26,13 +25,13 @@
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color: #2E2F42;
 }
 
 /* ======= /COMPONENTS ======= */
 body{
     background-color: #FFFFFF;
-    font-family: var(--main-font);
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -50,14 +49,14 @@ body{
     color: #4d5ae5;
 }
 .black-part-logo{
-    color:var(--main-text-color);
+    color:#2E2F42;
 }
 
 /* ======= /LOGO ======= */
 /* ======= NAV ======= */
 .header-menu-link {
     font-weight: 500;
-    color:var(--main-text-color);
+    color:#2E2F42;
 }
 .header-menu-link:hover,
 .header-menu-link:focus{
@@ -79,7 +78,7 @@ body{
 
 /* ======= HERO ======= */
 .hero{
-    background-color: var(--main-text-color);
+    background-color: #2E2F42;
 }
 .primary-title{
     text-align: center;
@@ -112,7 +111,7 @@ body{
 }
 /* ======= FOOTER ======= */
 .footer{
-    background-color: var(--main-text-color);
+    background-color: #2E2F42;
 }
 .footer-span{
     color:#f4f4fd;
